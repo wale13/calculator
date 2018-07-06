@@ -89,3 +89,6 @@ function squareRoot () {
     mainDisplay.value = Math.sqrt(sq);
     miniDisplay.value = mainDisplay.value;
 }
+$( "#better" ).draggable({
+  appendTo: "body"
+});
