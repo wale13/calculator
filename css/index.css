@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+#simple button {
+    display: inline-block;
+    width: 35px;
+    height: 33px;
+    margin: 6px 3px 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.display {
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 203px;
+    height: 40px;
+    padding: 10px 0;
+    font-size: x-large;
+    text-align: right;
+    font-family: 'Fredericka the Great', cursive;
+}
+#simple h1 {
+    font-size: 1.6rem;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+#simple {
+    padding: 5px 0 5px 5px;
+    width: 214px;
+    background-color: #999;
+}
+#better h1 {
+    font-size: 1.6rem;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+#better {
+    margin-top: 10px;
+    padding: 5px 0 5px 5px;
+    width: 288px;
+    background: linear-gradient(to top right, #8cff66, #7777ff);
+    box-shadow: 8px 5px 5px 2px rgba(200, 200, 200, 0.6);
+}
+#better button {
+    display: inline-block;
+    width: 50px;
+    color: white;
+    height: 47px;
+    margin: 6px 3px 0 0;
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+#better button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+#better button:active {
+    outline: none;
+}
+.mini-display {
+    color: black;
+    background-color: #abc;
+    text-align: right;
+    text-overflow: ellipsis;
+    width: 278px;
+    border-bottom: 1px solid #abc;
+    border: 3px 3px 0 3px solid #55f;
+}
+.main-display {
+    position: relative;
+    top: -1px;
+    font-size: 2.2rem;
+    color: black;
+    background-color: #abc;
+    text-align: right;
+    width: 278px;
+    height: 40px;
+    border-top: 1px solid #abc;
+    border: 0 3px 3px 3px solid #55f;
+    font-family: 'Fredericka the Great', cursive;
+}
